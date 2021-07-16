@@ -25,7 +25,7 @@ function transformToFindings(hosts) {
         description: `Port ${openPort.port} is ${openPort.state} using ${openPort.protocol} protocol.`,
         category: 'Open Port',
         location: `${openPort.protocol}://${hostInfo.ip}:${openPort.port}`,
-        communication_layer: 'NETWORK',
+        communication_layer: 'INTERNET',
         severity: 'INFORMATIONAL',
         attributes: {
           port: openPort.port,
@@ -53,7 +53,7 @@ function transformToFindings(hosts) {
       description: 'Found a host',
       location: hostname,
       severity: 'INFORMATIONAL',
-      communication_layer: 'NETWORK',
+      communication_layer: 'INTERNET',
       attributes: {
         ip_address: ip,
         hostname: hostname,
@@ -104,7 +104,7 @@ function transformNmapScriptSmb(host, script, scriptFindings) {
             description: `Port ${host.openPorts[0].port} is ${host.openPorts[0].state} using SMB protocol with an old version: SMBv1`,
             category: 'SMB',
             location: `${host.openPorts[0].protocol}://${host.ip}:${host.openPorts[0].port}`,
-            communication_layer: 'NETWORK',
+            communication_layer: 'INTERNET',
             severity: 'HIGH',
             attributes: {
               hostname: host.hostname,
@@ -130,7 +130,7 @@ function transformNmapScriptSmb(host, script, scriptFindings) {
               description: `Port ${host.openPorts[0].port} is ${host.openPorts[0].state} using SMB protocol with an old version: ` + smbVersion,
               category: 'SMB',
               location: `${host.openPorts[0].protocol}://${host.ip}:${host.openPorts[0].port}`,
-              communication_layer: 'NETWORK',
+              communication_layer: 'INTERNET',
               severity: 'MEDIUM',
               attributes: {
                 hostname: host.hostname,
@@ -155,7 +155,7 @@ function transformNmapScriptSmb(host, script, scriptFindings) {
               description: `Port ${host.openPorts[0].port} is ${host.openPorts[0].state} using SMB protocol with an old version: `+ smbVersion,
               category: 'SMB',
               location: `${host.openPorts[0].protocol}://${host.ip}:${host.openPorts[0].port}`,
-              communication_layer: 'NETWORK',
+              communication_layer: 'INTERNET',
               severity: 'LOW',
               attributes: {
                 hostname: host.hostname,
@@ -180,7 +180,7 @@ function transformNmapScriptSmb(host, script, scriptFindings) {
               description: `Port ${host.openPorts[0].port} is ${host.openPorts[0].state} using SMB protocol with version: ` + smbVersion,
               category: 'SMB',
               location: `${host.openPorts[0].protocol}://${host.ip}:${host.openPorts[0].port}`,
-              communication_layer: 'NETWORK',
+              communication_layer: 'INTERNET',
               severity: 'INFORMATIONAL',
               attributes: {
                 hostname: host.hostname,

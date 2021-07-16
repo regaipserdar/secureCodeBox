@@ -54,7 +54,7 @@ test("example parser parses single line json successully", async () => {
       "description": "Found subdomain www.example.de",
       "location": "www.example.de",
       "name": "www.example.de",
-      "communication_layer": "NETWORK",
+      "communication_layer": "INTERNET",
       "severity": "INFORMATIONAL",
     },
   ]

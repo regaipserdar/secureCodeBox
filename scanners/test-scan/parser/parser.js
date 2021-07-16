@@ -9,7 +9,7 @@ async function parse() {
       description: `Port is using protocol.`,
       category: "Open Port",
       location: `tcp://rw-hook-test:80`,
-      communication_layer: "NETWORK",
+      communication_layer: "INTERNET",
       severity: "INFORMATIONAL",
       attributes: {
         port: 80,
@@ -32,7 +32,7 @@ async function parse() {
       description: "Found a host",
       location: "hostname",
       severity: "INFORMATIONAL",
-      communication_layer: "NETWORK",
+      communication_layer: "INTERNET",
       attributes: {
         ip_address: "ip address",
         hostname: "hostname",

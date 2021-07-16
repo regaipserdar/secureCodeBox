@@ -40,7 +40,7 @@ test("should properly parse nmap xml file", async () => {
         "description": "Port 53 is open using tcp protocol.",
         "location": "tcp://127.0.0.1:53",
         "name": "domain",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -63,7 +63,7 @@ test("should properly parse nmap xml file", async () => {
         "description": "Port 8021 is open using tcp protocol.",
         "location": "tcp://127.0.0.1:8021",
         "name": "ftp-proxy",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -86,7 +86,7 @@ test("should properly parse nmap xml file", async () => {
         "description": "Port 8080 is open using tcp protocol.",
         "location": "tcp://127.0.0.1:8080",
         "name": "http-proxy",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -109,7 +109,7 @@ test("should properly parse nmap xml file", async () => {
         "description": "Port 9200 is open using tcp protocol.",
         "location": "tcp://127.0.0.1:9200",
         "name": "wap-wsp",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -122,7 +122,7 @@ test("should properly parse nmap xml file", async () => {
         "description": "Found a host",
         "location": "localhost",
         "name": "Host: localhost",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "INFORMATIONAL",
       },
     ]
@@ -146,7 +146,7 @@ test("should properly parse a nmap xml without any ports", async () => {
         "description": "Found a host",
         "location": "localhost",
         "name": "Host: localhost",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "INFORMATIONAL",
       },
     ]
@@ -191,7 +191,7 @@ test("should properly parse a nmap xml with missing service information", async 
         "description": "Port 10250 is filtered using tcp protocol.",
         "location": "tcp://93.184.216.34:10250",
         "name": undefined,
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -204,7 +204,7 @@ test("should properly parse a nmap xml with missing service information", async 
         "description": "Found a host",
         "location": "example.com",
         "name": "Host: example.com",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "INFORMATIONAL",
       },
     ]
@@ -241,7 +241,7 @@ test("Should properly parse a nmap xml with script specific SMB findings", async
         "description": "Port 445 is open using tcp protocol.",
         "location": "tcp://10.50.0.2:445",
         "name": "microsoft-ds",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -254,7 +254,7 @@ test("Should properly parse a nmap xml with script specific SMB findings", async
         "description": "Found a host",
         "location": "example.com",
         "name": "Host: example.com",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -277,7 +277,7 @@ test("Should properly parse a nmap xml with script specific SMB findings", async
         "description": "Port 445 is open using SMB protocol with an old version: SMBv1",
         "location": "tcp://10.50.0.2:445",
         "name": "SMB Dangerous Protocol Version Finding SMBv1",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "HIGH",
       },
       Object {
@@ -300,7 +300,7 @@ test("Should properly parse a nmap xml with script specific SMB findings", async
         "description": "Port 445 is open using SMB protocol with an old version: 2.02",
         "location": "tcp://10.50.0.2:445",
         "name": "SMB Protocol Version Finding v2.02",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "LOW",
       },
       Object {
@@ -323,7 +323,7 @@ test("Should properly parse a nmap xml with script specific SMB findings", async
         "description": "Port 445 is open using SMB protocol with an old version: 2.1",
         "location": "tcp://10.50.0.2:445",
         "name": "SMB Protocol Version Finding v2.1",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "LOW",
       },
       Object {
@@ -346,7 +346,7 @@ test("Should properly parse a nmap xml with script specific SMB findings", async
         "description": "Port 445 is open using SMB protocol with version: 3",
         "location": "tcp://10.50.0.2:445",
         "name": "SMB Protocol Version Finding v3",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -369,7 +369,7 @@ test("Should properly parse a nmap xml with script specific SMB findings", async
         "description": "Port 445 is open using SMB protocol with version: 3.02",
         "location": "tcp://10.50.0.2:445",
         "name": "SMB Protocol Version Finding v3.02",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -392,7 +392,7 @@ test("Should properly parse a nmap xml with script specific SMB findings", async
         "description": "Port 445 is open using SMB protocol with version: 3.11",
         "location": "tcp://10.50.0.2:445",
         "name": "SMB Protocol Version Finding v3.11",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "INFORMATIONAL",
       },
     ]

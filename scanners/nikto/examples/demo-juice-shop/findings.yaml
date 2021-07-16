@@ -8,7 +8,7 @@
     "description": null,
     "category": "Nikto Finding",
     "location": "http://juice-shop/",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -25,7 +25,7 @@
     "description": null,
     "category": "Nikto Finding",
     "location": "http://juice-shop/",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -42,7 +42,7 @@
     "description": null,
     "category": "X-XSS-Protection",
     "location": "http://juice-shop/",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "LOW",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -59,7 +59,7 @@
     "description": null,
     "category": "Nikto Finding",
     "location": "http://juice-shop/ftp/",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -76,7 +76,7 @@
     "description": null,
     "category": "robots.txt",
     "location": "http://juice-shop/robots.txt",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -93,7 +93,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/database.pem",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -110,7 +110,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/10.111.44.167.tar.gz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -127,7 +127,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/archive.tar",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -144,7 +144,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/site.tgz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -161,7 +161,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/database.tgz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -178,7 +178,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/10.111.44.167.zip",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -195,7 +195,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/archive.pem",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -212,7 +212,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/backup.tgz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -229,7 +229,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/database.egg",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -246,7 +246,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/juice-shop.tar.gz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -263,7 +263,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/dump.tar.gz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -280,7 +280,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/database.zip",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -297,7 +297,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/backup.tar.bz2",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -314,7 +314,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/backup.jks",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -331,7 +331,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/juice-shop.cer",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -348,7 +348,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/site.cer",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -365,7 +365,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/site.sql",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -382,7 +382,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/10.111.44.167.war",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -399,7 +399,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/site.pem",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -416,7 +416,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/database.tar.lzma",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -433,7 +433,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/10.111.44.167.gz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -450,7 +450,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/site.egg",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -467,7 +467,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/juice-shop.sql",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -484,7 +484,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/juice-shop.egg",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -501,7 +501,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/database.gz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -518,7 +518,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/backup.sql",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -535,7 +535,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/dump.war",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -552,7 +552,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/archive.jks",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -569,7 +569,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/site.gz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -586,7 +586,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/site.tar.lzma",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -603,7 +603,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/juice-shop.tar",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -620,7 +620,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/juice-shop.war",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -637,7 +637,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/dump.jks",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -654,7 +654,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/10.111.44.167.tar.bz2",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -671,7 +671,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/dump.zip",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -688,7 +688,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/dump.tar.bz2",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -705,7 +705,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/site.tar",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -722,7 +722,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/archive.sql",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -739,7 +739,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/juice-shop.zip",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -756,7 +756,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/database.alz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -773,7 +773,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/site.alz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -790,7 +790,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/juice-shop.pem",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -807,7 +807,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/juice-shop.tar.lzma",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -824,7 +824,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/10.111.44.167.tar",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -841,7 +841,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/backup.tar.lzma",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -858,7 +858,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/dump.tgz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -875,7 +875,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/juice-shop.tgz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -892,7 +892,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/10.111.44.167.sql",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -909,7 +909,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/database.sql",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -926,7 +926,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/site.tar.gz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -943,7 +943,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/archive.gz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -960,7 +960,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/archive.tgz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -977,7 +977,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/archive.alz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -994,7 +994,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/10.111.44.167.jks",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1011,7 +1011,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/dump.cer",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1028,7 +1028,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/dump.sql",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1045,7 +1045,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/archive.cer",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1062,7 +1062,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/database.cer",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1079,7 +1079,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/juice-shop.tar.bz2",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1096,7 +1096,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/dump.egg",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1113,7 +1113,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/archive.tar.bz2",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1130,7 +1130,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/juice-shop.gz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1147,7 +1147,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/10.111.44.167.tar.lzma",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1164,7 +1164,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/dump.pem",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1181,7 +1181,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/database.jks",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1198,7 +1198,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/10.111.44.167.tgz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1215,7 +1215,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/backup.alz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1232,7 +1232,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/site.war",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1249,7 +1249,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/backup.tar.gz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1266,7 +1266,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/dump.gz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1283,7 +1283,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/dump.tar.lzma",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1300,7 +1300,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/juice-shop.jks",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1317,7 +1317,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/database.tar.bz2",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1334,7 +1334,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/backup.zip",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1351,7 +1351,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/site.jks",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1368,7 +1368,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/backup.pem",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1385,7 +1385,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/archive.zip",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1402,7 +1402,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/backup.egg",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1419,7 +1419,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/site.zip",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1436,7 +1436,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/database.war",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1453,7 +1453,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/10.111.44.167.alz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1470,7 +1470,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/10.111.44.167.pem",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1487,7 +1487,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/archive.war",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1504,7 +1504,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/database.tar",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1521,7 +1521,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/backup.gz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1538,7 +1538,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/10.111.44.167.egg",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1555,7 +1555,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/site.tar.bz2",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1572,7 +1572,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/backup.war",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1589,7 +1589,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/archive.egg",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1606,7 +1606,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/dump.tar",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1623,7 +1623,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/backup.tar",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1640,7 +1640,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/database.tar.gz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1657,7 +1657,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/10.111.44.167.cer",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1674,7 +1674,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/juice-shop.alz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1691,7 +1691,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/backup.cer",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1708,7 +1708,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/dump.alz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1725,7 +1725,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/archive.tar.lzma",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",
@@ -1742,7 +1742,7 @@
     "description": null,
     "category": "Potential Backup File",
     "location": "http://juice-shop/archive.tar.gz",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.111.44.167",

@@ -8,7 +8,7 @@
         "description": "Port 22 is open using tcp protocol.",
         "category": "Open Port",
         "location": "tcp://10.102.131.102:22",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "severity": "INFORMATIONAL",
         "attributes": {
             "port": 22,
@@ -32,7 +32,7 @@
         "description": "Found a host",
         "location": "dummy-ssh.demo-targets.svc",
         "severity": "INFORMATIONAL",
-        "communication_layer": "NETWORK",
+        "communication_layer": "INTERNET",
         "attributes": {
             "ip_address": "10.102.131.102",
             "hostname": "dummy-ssh.demo-targets.svc",

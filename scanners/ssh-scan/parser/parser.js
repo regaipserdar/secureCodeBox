@@ -98,7 +98,7 @@ function createPolicyViolationFinding({
     name,
     description,
     category: "SSH Policy Violation",
-    communication_layer: "NETWORK",
+    communication_layer: "INTERNET",
     severity: "MEDIUM",
     reference: {},
     hint: recommendation,

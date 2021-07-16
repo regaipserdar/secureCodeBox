@@ -15,7 +15,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/",
     "name": "Retrieved access-control-allow-origin header: *",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -31,7 +31,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/",
     "name": "The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "LOW",
   },
   Object {
@@ -47,7 +47,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/",
     "name": "Uncommon header 'feature-policy' found, with contents: payment 'self'",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -63,7 +63,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/",
     "name": "The site uses SSL and Expect-CT header is not present.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -79,7 +79,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/ftp/",
     "name": "Entry '/ftp/' in robots.txt returned a non-forbidden or redirect HTTP code (200)",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -95,7 +95,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/robots.txt",
     "name": "\\"robots.txt\\" contains 1 entry which should be manually viewed.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -111,7 +111,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/",
     "name": "The Content-Encoding header is set to \\"deflate\\" this may mean that the server is vulnerable to the BREACH attack.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -127,7 +127,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop_demo_securecodebox_io.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -143,7 +143,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodebox.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -159,7 +159,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/demo.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -175,7 +175,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodeboxio.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -191,7 +191,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodeboxio.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -207,7 +207,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/dump.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -223,7 +223,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/demo.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -239,7 +239,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemo.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -255,7 +255,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/securecodebox.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -271,7 +271,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.io.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -287,7 +287,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/35.246.195.112.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -303,7 +303,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemo.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -319,7 +319,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/backup.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -335,7 +335,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/backup.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -351,7 +351,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/database.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -367,7 +367,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/demo.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -383,7 +383,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/dump.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -399,7 +399,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemo.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -415,7 +415,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/io.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -431,7 +431,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/archive.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -447,7 +447,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop_demo_securecodebox_io.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -463,7 +463,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/35.246.195.112.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -479,7 +479,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -495,7 +495,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -511,7 +511,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/securecodebox.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -527,7 +527,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.io.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -543,7 +543,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodebox.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -559,7 +559,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -575,7 +575,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/backup.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -591,7 +591,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -607,7 +607,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/securecodebox.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -623,7 +623,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/securecodebox.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -639,7 +639,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/database.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -655,7 +655,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/backup.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -671,7 +671,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/backup.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -687,7 +687,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodebox.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -703,7 +703,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -719,7 +719,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodeboxio.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -735,7 +735,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemo.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -751,7 +751,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/dump.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -767,7 +767,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop_demo_securecodebox_io.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -783,7 +783,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.io.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -799,7 +799,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.io.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -815,7 +815,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/site.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -831,7 +831,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -847,7 +847,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/site.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -863,7 +863,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.io.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -879,7 +879,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/archive.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -895,7 +895,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemo.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -911,7 +911,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/dump.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -927,7 +927,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/site.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -943,7 +943,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodeboxio.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -959,7 +959,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.io.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -975,7 +975,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop_demo_securecodebox_io.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -991,7 +991,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemo.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1007,7 +1007,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/database.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1023,7 +1023,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/archive.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1039,7 +1039,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1055,7 +1055,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodeboxio.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1071,7 +1071,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/io.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1087,7 +1087,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodeboxio.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1103,7 +1103,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/io.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1119,7 +1119,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemo.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1135,7 +1135,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodeboxio.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1151,7 +1151,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.io.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1167,7 +1167,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/demo.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1183,7 +1183,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/io.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1199,7 +1199,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/35.246.195.112.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1215,7 +1215,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodebox.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1231,7 +1231,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodebox.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1247,7 +1247,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1263,7 +1263,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/site.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1279,7 +1279,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.io.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1295,7 +1295,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1311,7 +1311,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodebox.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1327,7 +1327,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/io.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1343,7 +1343,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/securecodebox.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1359,7 +1359,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1375,7 +1375,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/database.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1391,7 +1391,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodebox.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1407,7 +1407,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/site.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1423,7 +1423,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/database.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1439,7 +1439,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1455,7 +1455,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/securecodebox.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1471,7 +1471,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1487,7 +1487,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/io.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1503,7 +1503,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1519,7 +1519,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop_demo_securecodebox_io.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1535,7 +1535,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemo.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1551,7 +1551,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/backup.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1567,7 +1567,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.io.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1583,7 +1583,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/io.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1599,7 +1599,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/35.246.195.112.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1615,7 +1615,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemo.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1631,7 +1631,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1647,7 +1647,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/demo.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1663,7 +1663,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/securecodebox.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1679,7 +1679,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodebox.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1695,7 +1695,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/site.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1711,7 +1711,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/site.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1727,7 +1727,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1743,7 +1743,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/archive.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1759,7 +1759,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.io.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1775,7 +1775,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.io.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1791,7 +1791,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1807,7 +1807,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodebox.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1823,7 +1823,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1839,7 +1839,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodeboxio.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1855,7 +1855,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodeboxio.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1871,7 +1871,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/archive.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1887,7 +1887,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/dump.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1903,7 +1903,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemo.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1919,7 +1919,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1935,7 +1935,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1951,7 +1951,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1967,7 +1967,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/dump.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1983,7 +1983,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/demo.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -1999,7 +1999,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/archive.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2015,7 +2015,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2031,7 +2031,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/archive.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2047,7 +2047,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2063,7 +2063,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2079,7 +2079,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/database.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2095,7 +2095,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/dump.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2111,7 +2111,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/demo.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2127,7 +2127,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/database.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2143,7 +2143,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/archive.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2159,7 +2159,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop_demo_securecodebox_io.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2175,7 +2175,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/backup.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2191,7 +2191,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2207,7 +2207,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2223,7 +2223,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/securecodebox.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2239,7 +2239,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop_demo_securecodebox_io.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2255,7 +2255,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodebox.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2271,7 +2271,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodebox.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2287,7 +2287,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/io.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2303,7 +2303,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/backup.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2319,7 +2319,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/archive.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2335,7 +2335,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/dump.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2351,7 +2351,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/35.246.195.112.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2367,7 +2367,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/backup.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2383,7 +2383,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/dump.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2399,7 +2399,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/demo.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2415,7 +2415,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/securecodebox.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2431,7 +2431,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodebox.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2447,7 +2447,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/site.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2463,7 +2463,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/securecodebox.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2479,7 +2479,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/35.246.195.112.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2495,7 +2495,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/site.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2511,7 +2511,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/dump.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2527,7 +2527,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/demo.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2543,7 +2543,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop_demo_securecodebox_io.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2559,7 +2559,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/demo.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2575,7 +2575,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/backup.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2591,7 +2591,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop_demo_securecodebox_io.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2607,7 +2607,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2623,7 +2623,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop_demo_securecodebox_io.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2639,7 +2639,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/database.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2655,7 +2655,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/35.246.195.112.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2671,7 +2671,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2687,7 +2687,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.io.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2703,7 +2703,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodebox.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2719,7 +2719,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/io.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2735,7 +2735,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/demo.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2751,7 +2751,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/35.246.195.112.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2767,7 +2767,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2783,7 +2783,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/site.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2799,7 +2799,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/securecodebox.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2815,7 +2815,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/securecodebox.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2831,7 +2831,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemo.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2847,7 +2847,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/35.246.195.112.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2863,7 +2863,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/35.246.195.112.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2879,7 +2879,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/database.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2895,7 +2895,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2911,7 +2911,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/io.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2927,7 +2927,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/backup.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2943,7 +2943,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2959,7 +2959,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2975,7 +2975,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/database.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -2991,7 +2991,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/site.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3007,7 +3007,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.io.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3023,7 +3023,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3039,7 +3039,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodebox.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3055,7 +3055,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemo.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3071,7 +3071,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop_demo_securecodebox_io.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3087,7 +3087,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/35.246.195.112.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3103,7 +3103,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodeboxio.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3119,7 +3119,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/35.246.195.112.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3135,7 +3135,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.io.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3151,7 +3151,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop_demo_securecodebox_io.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3167,7 +3167,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/database.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3183,7 +3183,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodeboxio.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3199,7 +3199,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop_demo_securecodebox_io.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3215,7 +3215,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/site.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3231,7 +3231,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3247,7 +3247,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3263,7 +3263,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/backup.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3279,7 +3279,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/database.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3295,7 +3295,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/archive.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3311,7 +3311,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/site.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3327,7 +3327,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/database.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3343,7 +3343,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.jks",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3359,7 +3359,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodeboxio.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3375,7 +3375,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/io.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3391,7 +3391,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3407,7 +3407,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/archive.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3423,7 +3423,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/database.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3439,7 +3439,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodeboxio.cer",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3455,7 +3455,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/securecodebox.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3471,7 +3471,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/io.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3487,7 +3487,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/backup.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3503,7 +3503,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/site.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3519,7 +3519,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/archive.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3535,7 +3535,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/demo.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3551,7 +3551,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/backup.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3567,7 +3567,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/demo.tgz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3583,7 +3583,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/dump.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3599,7 +3599,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3615,7 +3615,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/archive.zip",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3631,7 +3631,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/archive.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3647,7 +3647,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop_demo_securecodebox_io.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3663,7 +3663,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemo.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3679,7 +3679,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.tar",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3695,7 +3695,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/securecodebox.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3711,7 +3711,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/io.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3727,7 +3727,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/io.egg",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3743,7 +3743,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3759,7 +3759,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/35.246.195.112.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3775,7 +3775,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemo.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3791,7 +3791,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/dump.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3807,7 +3807,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/35.246.195.112.sql",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3823,7 +3823,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.pem",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3839,7 +3839,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/demo.tar.bz2",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3855,7 +3855,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shopdemosecurecodeboxio.alz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3871,7 +3871,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/dump.war",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3887,7 +3887,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.tar.lzma",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3903,7 +3903,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/juice-shop.demo.securecodebox.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3919,7 +3919,7 @@ Array [
     "description": null,
     "location": "https://juice-shop.demo.securecodebox.io/dump.tar.gz",
     "name": "Potentially interesting backup/cert file found.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
 ]
@@ -3940,7 +3940,7 @@ Array [
     "description": null,
     "location": "https://www.securecodebox.io/",
     "name": "Retrieved via header: 1.1 varnish",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3956,7 +3956,7 @@ Array [
     "description": null,
     "location": "https://www.securecodebox.io/",
     "name": "Retrieved x-served-by header: cache-fra19151-FRA",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3972,7 +3972,7 @@ Array [
     "description": null,
     "location": "https://www.securecodebox.io/",
     "name": "Retrieved access-control-allow-origin header: *",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -3988,7 +3988,7 @@ Array [
     "description": null,
     "location": "https://www.securecodebox.io/",
     "name": "The anti-clickjacking X-Frame-Options header is not present.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "LOW",
   },
   Object {
@@ -4004,7 +4004,7 @@ Array [
     "description": null,
     "location": "https://www.securecodebox.io/",
     "name": "The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "LOW",
   },
   Object {
@@ -4020,7 +4020,7 @@ Array [
     "description": null,
     "location": "https://www.securecodebox.io/",
     "name": "Uncommon header 'x-timer' found, with contents: S1585519074.290715,VS0,VE1",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -4036,7 +4036,7 @@ Array [
     "description": null,
     "location": "https://www.securecodebox.io/",
     "name": "Uncommon header 'x-cache' found, with contents: HIT",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -4052,7 +4052,7 @@ Array [
     "description": null,
     "location": "https://www.securecodebox.io/",
     "name": "Uncommon header 'x-proxy-cache' found, with contents: MISS",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -4068,7 +4068,7 @@ Array [
     "description": null,
     "location": "https://www.securecodebox.io/",
     "name": "Uncommon header 'x-fastly-request-id' found, with contents: 12821df5c3f5eb828b1a4ce7d4e3637faa71291a",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -4084,7 +4084,7 @@ Array [
     "description": null,
     "location": "https://www.securecodebox.io/",
     "name": "Uncommon header 'x-github-request-id' found, with contents: DB72:2841:1B0932:23C885:5E8119E0",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -4100,7 +4100,7 @@ Array [
     "description": null,
     "location": "https://www.securecodebox.io/",
     "name": "Uncommon header 'x-served-by' found, with contents: cache-fra19151-FRA",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -4116,7 +4116,7 @@ Array [
     "description": null,
     "location": "https://www.securecodebox.io/",
     "name": "The site uses SSL and Expect-CT header is not present.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -4132,7 +4132,7 @@ Array [
     "description": null,
     "location": "https://www.securecodebox.io/",
     "name": "The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -4148,7 +4148,7 @@ Array [
     "description": null,
     "location": "https://www.securecodebox.io/",
     "name": "Server banner changed from 'GitHub.com' to 'Varnish'",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
   Object {
@@ -4164,7 +4164,7 @@ Array [
     "description": null,
     "location": "https://www.securecodebox.io/",
     "name": "The Content-Encoding header is set to \\"deflate\\" this may mean that the server is vulnerable to the BREACH attack.",
-    "communication_layer": "NETWORK",
+    "communication_layer": "INTERNET",
     "severity": "INFORMATIONAL",
   },
 ]

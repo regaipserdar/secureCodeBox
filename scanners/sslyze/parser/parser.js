@@ -35,7 +35,7 @@ function parse(fileContent) {
   // Enhance partialFindings with common properties shared across all SSLyze findings
   const findings = partialFindings.map((partialFinding) => {
     return {
-      communication_layer: "PRESENTATION",
+      communication_layer: "APPLICATION",
       reference: null,
       location,
       ...partialFinding,
