@@ -26,7 +26,7 @@ class AbstractScanner(abc.ABC):
             'name': f'{self.git_type} Repo',
             'description': f'A {self.git_type} repository',
             'category': 'Git Repository',
-            'osi_layer': 'APPLICATION',
+            'communication_layer': 'APPLICATION',
             'severity': 'INFORMATIONAL',
             'attributes': {
                 'id': repo_id,

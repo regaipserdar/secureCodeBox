@@ -26,7 +26,7 @@ async function parse (fileContent, scan) {
       return {
         name: finding.rule,
         description: 'The name of the rule which triggered the finding: ' + finding.rule,
-        osi_layer: 'APPLICATION',
+        communication_layer: 'APPLICATION',
         severity: severity,
         category: 'Potential Secret',
         attributes: {

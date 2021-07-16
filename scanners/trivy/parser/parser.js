@@ -44,7 +44,7 @@ async function parse(scanResults) {
         description: vulnerability.Description,
         category,
         location: imageId,
-        osi_layer: "NOT_APPLICABLE",
+        communication_layer: "NOT_APPLICABLE",
         severity: vulnerability.Severity,
         reference,
         attributes: {

@@ -8,7 +8,7 @@
         "description": "Web browser data loading may be possible, due to a Cross Origin Resource Sharing (CORS) misconfiguration on the web server",
         "category": "Cross-Domain Misconfiguration",
         "location": "http://juice-shop.demo-targets.svc:3000",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "MEDIUM",
         "attributes": {
             "host": "juice-shop.demo-targets.svc",
@@ -131,7 +131,7 @@
         "description": "The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.",
         "category": "X-Content-Type-Options Header Missing",
         "location": "http://juice-shop.demo-targets.svc:3000",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "juice-shop.demo-targets.svc",
@@ -254,7 +254,7 @@
         "description": "X-Frame-Options header is not included in the HTTP response to protect against 'ClickJacking' attacks.",
         "category": "X-Frame-Options Header Not Set",
         "location": "http://juice-shop.demo-targets.svc:3000",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "MEDIUM",
         "attributes": {
             "host": "juice-shop.demo-targets.svc",
@@ -287,7 +287,7 @@
         "description": "A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.",
         "category": "Cookie Without SameSite Attribute",
         "location": "http://juice-shop.demo-targets.svc:3000",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "juice-shop.demo-targets.svc",
@@ -430,7 +430,7 @@
         "description": "The web/application server is leaking information via one or more \"X-Powered-By\" HTTP response headers. Access to such information may facilitate attackers identifying other frameworks/components your web application is reliant upon and the vulnerabilities such components may be subject to.",
         "category": "Server Leaks Information via \"X-Powered-By\" HTTP Response Header Field(s)",
         "location": "http://juice-shop.demo-targets.svc:3000",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "juice-shop.demo-targets.svc",
@@ -553,7 +553,7 @@
         "description": "The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.",
         "category": "Modern Web Application",
         "location": "http://juice-shop.demo-targets.svc:3000",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
         "attributes": {
             "host": "juice-shop.demo-targets.svc",
@@ -606,7 +606,7 @@
         "description": "A timestamp was disclosed by the application/web server - Unix",
         "category": "Timestamp Disclosure - Unix",
         "location": "http://juice-shop.demo-targets.svc:3000",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
         "attributes": {
             "host": "juice-shop.demo-targets.svc",
@@ -729,7 +729,7 @@
         "description": "The page includes one or more script files from a third-party domain.",
         "category": "Cross-Domain JavaScript Source File Inclusion",
         "location": "http://juice-shop.demo-targets.svc:3000",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "juice-shop.demo-targets.svc",
@@ -788,7 +788,7 @@
         "description": "This check looks at user-supplied input in query string parameters and POST data to identify where cookie parameters might be controlled. This is called a cookie poisoning attack, and becomes exploitable when an attacker can manipulate the cookie in various ways. In some cases this will not be exploitable, however, allowing URL parameters to set cookie values is generally considered a bug.",
         "category": "Cookie Poisoning",
         "location": "http://juice-shop.demo-targets.svc:3000",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
         "attributes": {
             "host": "juice-shop.demo-targets.svc",
@@ -911,7 +911,7 @@
         "description": "URL rewrite is used to track user session ID. The session ID may be disclosed via cross-site referer header. In addition, the session ID might be stored in browser history or server logs.",
         "category": "Session ID in URL Rewrite",
         "location": "http://juice-shop.demo-targets.svc:3000",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "MEDIUM",
         "attributes": {
             "host": "juice-shop.demo-targets.svc",
@@ -1054,7 +1054,7 @@
         "description": "The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.",
         "category": "Information Disclosure - Suspicious Comments",
         "location": "http://juice-shop.demo-targets.svc:3000",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
         "attributes": {
             "host": "juice-shop.demo-targets.svc",
@@ -1105,7 +1105,7 @@
         "description": "Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.",
         "category": "Content Security Policy (CSP) Header Not Set",
         "location": "http://juice-shop.demo-targets.svc:3000",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "juice-shop.demo-targets.svc",
@@ -1188,7 +1188,7 @@
         "description": "A private IP (such as 10.x.x.x, 172.x.x.x, 192.168.x.x) or an Amazon EC2 private hostname (for example, ip-10-0-56-78) has been found in the HTTP response body. This information might be helpful for further attacks targeting internal systems.",
         "category": "Private IP Disclosure",
         "location": "http://juice-shop.demo-targets.svc:3000",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "juice-shop.demo-targets.svc",

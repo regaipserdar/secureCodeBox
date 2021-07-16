@@ -57,7 +57,7 @@ async function parse({ host, ip, port: portString, banner, vulnerabilities }) {
       description: null,
       category,
       location: `${protocol}://${host}${url}`,
-      osi_layer: "NETWORK",
+      communication_layer: "NETWORK",
       severity,
       attributes: {
         ip_address: ip,

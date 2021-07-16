@@ -8,7 +8,7 @@ function createDropCapabilityFinding({ Capability, Container, msg }) {
     description: msg,
     category: "Capability Not Dropped",
     location: `container://${Container}`,
-    osi_layer: "NOT_APPLICABLE",
+    communication_layer: "NOT_APPLICABLE",
     severity: "LOW",
     attributes: {
       capability: Capability,
@@ -23,7 +23,7 @@ function createNonReadOnlyRootFsFinding({ Container, msg }) {
     description: msg,
     category: "Non ReadOnly Root Filesystem",
     location: `container://${Container}`,
-    osi_layer: "NOT_APPLICABLE",
+    communication_layer: "NOT_APPLICABLE",
     severity: "LOW",
     attributes: {
       container: Container,
@@ -37,7 +37,7 @@ function createPrivilegedContainerFinding({ Container, msg }) {
     description: msg,
     category: "Privileged Container",
     location: `container://${Container}`,
-    osi_layer: "NOT_APPLICABLE",
+    communication_layer: "NOT_APPLICABLE",
     severity: "HIGH",
     attributes: {
       container: Container,
@@ -51,7 +51,7 @@ function createAutomountedServiceAccountTokenFinding({ msg }) {
     description: msg,
     category: "Automounted ServiceAccount Token",
     location: null,
-    osi_layer: "NOT_APPLICABLE",
+    communication_layer: "NOT_APPLICABLE",
     severity: "LOW",
     attributes: {},
   };
@@ -63,7 +63,7 @@ function createNonRootUserNotEnforcedFinding({ msg, Container }) {
     description: msg,
     category: "Non Root User Not Enforced",
     location: `container://${Container}`,
-    osi_layer: "NOT_APPLICABLE",
+    communication_layer: "NOT_APPLICABLE",
     severity: "MEDIUM",
     attributes: {
       container: Container,
@@ -77,7 +77,7 @@ function createMissingNetworkPolicyFinding({ msg, Namespace }) {
     description: msg,
     category: "No Default Deny NetworkPolicy",
     location: `namespace://${Namespace}`,
-    osi_layer: "NOT_APPLICABLE",
+    communication_layer: "NOT_APPLICABLE",
     severity: "MEDIUM",
     attributes: {
       Namespace: Namespace,

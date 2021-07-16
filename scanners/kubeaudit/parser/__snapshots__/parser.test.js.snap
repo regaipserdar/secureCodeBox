@@ -8,7 +8,7 @@ Array [
     "description": "Default service account with token mounted. automountServiceAccountToken should be set to 'false' on either the ServiceAccount or on the PodSpec or a non-default service account should be used.",
     "location": null,
     "name": "Default ServiceAccount uses Automounted Service Account Token",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "LOW",
   },
   Object {
@@ -20,7 +20,7 @@ Array [
     "description": "Capability not dropped. Ideally, the capability drop list should include the single capability 'ALL' which drops all capabilities.",
     "location": "container://juice-shop",
     "name": "Capability 'AUDIT_WRITE' Not Dropped",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "LOW",
   },
   Object {
@@ -32,7 +32,7 @@ Array [
     "description": "Capability not dropped. Ideally, the capability drop list should include the single capability 'ALL' which drops all capabilities.",
     "location": "container://juice-shop",
     "name": "Capability 'CHOWN' Not Dropped",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "LOW",
   },
   Object {
@@ -44,7 +44,7 @@ Array [
     "description": "Capability not dropped. Ideally, the capability drop list should include the single capability 'ALL' which drops all capabilities.",
     "location": "container://juice-shop",
     "name": "Capability 'DAC_OVERRIDE' Not Dropped",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "LOW",
   },
   Object {
@@ -56,7 +56,7 @@ Array [
     "description": "Capability not dropped. Ideally, the capability drop list should include the single capability 'ALL' which drops all capabilities.",
     "location": "container://juice-shop",
     "name": "Capability 'FOWNER' Not Dropped",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "LOW",
   },
   Object {
@@ -68,7 +68,7 @@ Array [
     "description": "Capability not dropped. Ideally, the capability drop list should include the single capability 'ALL' which drops all capabilities.",
     "location": "container://juice-shop",
     "name": "Capability 'FSETID' Not Dropped",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "LOW",
   },
   Object {
@@ -80,7 +80,7 @@ Array [
     "description": "Capability not dropped. Ideally, the capability drop list should include the single capability 'ALL' which drops all capabilities.",
     "location": "container://juice-shop",
     "name": "Capability 'KILL' Not Dropped",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "LOW",
   },
   Object {
@@ -92,7 +92,7 @@ Array [
     "description": "Capability not dropped. Ideally, the capability drop list should include the single capability 'ALL' which drops all capabilities.",
     "location": "container://juice-shop",
     "name": "Capability 'MKNOD' Not Dropped",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "LOW",
   },
   Object {
@@ -104,7 +104,7 @@ Array [
     "description": "Capability not dropped. Ideally, the capability drop list should include the single capability 'ALL' which drops all capabilities.",
     "location": "container://juice-shop",
     "name": "Capability 'NET_BIND_SERVICE' Not Dropped",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "LOW",
   },
   Object {
@@ -116,7 +116,7 @@ Array [
     "description": "Capability not dropped. Ideally, the capability drop list should include the single capability 'ALL' which drops all capabilities.",
     "location": "container://juice-shop",
     "name": "Capability 'NET_RAW' Not Dropped",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "LOW",
   },
   Object {
@@ -128,7 +128,7 @@ Array [
     "description": "Capability not dropped. Ideally, the capability drop list should include the single capability 'ALL' which drops all capabilities.",
     "location": "container://juice-shop",
     "name": "Capability 'SETFCAP' Not Dropped",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "LOW",
   },
   Object {
@@ -140,7 +140,7 @@ Array [
     "description": "Capability not dropped. Ideally, the capability drop list should include the single capability 'ALL' which drops all capabilities.",
     "location": "container://juice-shop",
     "name": "Capability 'SETGID' Not Dropped",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "LOW",
   },
   Object {
@@ -152,7 +152,7 @@ Array [
     "description": "Capability not dropped. Ideally, the capability drop list should include the single capability 'ALL' which drops all capabilities.",
     "location": "container://juice-shop",
     "name": "Capability 'SETPCAP' Not Dropped",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "LOW",
   },
   Object {
@@ -164,7 +164,7 @@ Array [
     "description": "Capability not dropped. Ideally, the capability drop list should include the single capability 'ALL' which drops all capabilities.",
     "location": "container://juice-shop",
     "name": "Capability 'SETUID' Not Dropped",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "LOW",
   },
   Object {
@@ -176,7 +176,7 @@ Array [
     "description": "Capability not dropped. Ideally, the capability drop list should include the single capability 'ALL' which drops all capabilities.",
     "location": "container://juice-shop",
     "name": "Capability 'SYS_CHROOT' Not Dropped",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "LOW",
   },
   Object {
@@ -187,7 +187,7 @@ Array [
     "description": "runAsNonRoot is not set in container SecurityContext nor the PodSecurityContext. It should be set to 'true' in at least one of the two.",
     "location": "container://juice-shop",
     "name": "NonRoot User not enforced for Container",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "MEDIUM",
   },
   Object {
@@ -198,7 +198,7 @@ Array [
     "description": "readOnlyRootFilesystem is not set in container SecurityContext. It should be set to 'true'.",
     "location": "container://juice-shop",
     "name": "Container Uses a non ReadOnly Root Filesystem",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "LOW",
   },
   Object {
@@ -209,7 +209,7 @@ Array [
     "description": "Namespace is missing a default deny ingress and egress NetworkPolicy.",
     "location": "namespace://default",
     "name": "Namespace \\"default\\" is missing a Default Deny NetworkPolicy",
-    "osi_layer": "NOT_APPLICABLE",
+    "communication_layer": "NOT_APPLICABLE",
     "severity": "MEDIUM",
   },
 ]

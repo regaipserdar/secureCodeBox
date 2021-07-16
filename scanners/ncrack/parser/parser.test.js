@@ -37,7 +37,7 @@ it('should return findings when ncrack found credentials', async () => {
           "description": "",
           "location": "ssh://192.168.0.1:22",
           "name": "Credentials for Service ssh://192.168.0.1:22 discovered via bruteforce.",
-          "osi_layer": "APPLICATION",
+          "communication_layer": "APPLICATION",
           "severity": "HIGH",
         }
     `);
@@ -81,7 +81,7 @@ it('should return findings when ncrack found two credentials scanning two servic
             "description": "",
             "location": "ssh://192.168.0.2:22",
             "name": "Credentials for Service ssh://192.168.0.2:22 discovered via bruteforce.",
-            "osi_layer": "APPLICATION",
+            "communication_layer": "APPLICATION",
             "severity": "HIGH",
           },
           Object {
@@ -97,7 +97,7 @@ it('should return findings when ncrack found two credentials scanning two servic
             "description": "",
             "location": "ssh://192.168.0.1:22",
             "name": "Credentials for Service ssh://192.168.0.1:22 discovered via bruteforce.",
-            "osi_layer": "APPLICATION",
+            "communication_layer": "APPLICATION",
             "severity": "HIGH",
           },
         ]

@@ -8,7 +8,7 @@
         "description": "Port 3000 is open using tcp protocol.",
         "category": "Open Port",
         "location": "tcp://10.111.199.4:3000",
-        "osi_layer": "NETWORK",
+        "communication_layer": "NETWORK",
         "severity": "INFORMATIONAL",
         "attributes": {
             "port": 3000,
@@ -32,7 +32,7 @@
         "description": "Found a host",
         "location": "juice-shop.demo-targets.svc.cluster.local",
         "severity": "INFORMATIONAL",
-        "osi_layer": "NETWORK",
+        "communication_layer": "NETWORK",
         "attributes": {
             "ip_address": "10.111.199.4",
             "hostname": "juice-shop.demo-targets.svc.cluster.local",

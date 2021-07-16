@@ -24,7 +24,7 @@ test("parses result file for www.securecodebox.io correctly", async () => {
     category: "TLS Service Info",
     description: "",
     severity: "INFORMATIONAL",
-    osi_layer: "PRESENTATION",
+    communication_layer: "PRESENTATION",
     hint: null,
     reference: null,
     location: "www.securecodebox.io:443",
@@ -64,7 +64,7 @@ test("parses result file for tls-v1-0.badssl.com:1010 correctly", async () => {
     category: "TLS Service Info",
     description: "",
     severity: "INFORMATIONAL",
-    osi_layer: "PRESENTATION",
+    communication_layer: "PRESENTATION",
     hint: null,
     reference: null,
     location: "tls-v1-0.badssl.com:1010",
@@ -94,7 +94,7 @@ test("parses result file for tls-v1-0.badssl.com:1010 correctly", async () => {
     description: "The server uses outdated or insecure tls versions.",
     severity: "MEDIUM",
     hint: "Upgrade to a higher tls version.",
-    osi_layer: "PRESENTATION",
+    communication_layer: "PRESENTATION",
     reference: null,
     location: "tls-v1-0.badssl.com:1010",
     attributes: {
@@ -122,7 +122,7 @@ test("parses result file for expired.badssl.com correctly", async () => {
     category: "TLS Service Info",
     description: "",
     severity: "INFORMATIONAL",
-    osi_layer: "PRESENTATION",
+    communication_layer: "PRESENTATION",
     hint: null,
     reference: null,
     location: "expired.badssl.com:443",
@@ -172,7 +172,7 @@ test("parses result file for expired.badssl.com correctly", async () => {
       port: 443,
     },
     hint: null,
-    osi_layer: "PRESENTATION",
+    communication_layer: "PRESENTATION",
     reference: null,
   });
 });
@@ -191,7 +191,7 @@ test("parses result file for wrong.host.badssl.com correctly", async () => {
     category: "TLS Service Info",
     description: "",
     severity: "INFORMATIONAL",
-    osi_layer: "PRESENTATION",
+    communication_layer: "PRESENTATION",
     hint: null,
     reference: null,
     location: "wrong.host.badssl.com:443",
@@ -242,7 +242,7 @@ test("parses result file for wrong.host.badssl.com correctly", async () => {
       port: 443,
     },
     hint: null,
-    osi_layer: "PRESENTATION",
+    communication_layer: "PRESENTATION",
     reference: null,
   });
 });
@@ -264,7 +264,7 @@ test("parses result file for untrusted-root.badssl.com correctly", async () => {
     category: "TLS Service Info",
     description: "",
     severity: "INFORMATIONAL",
-    osi_layer: "PRESENTATION",
+    communication_layer: "PRESENTATION",
     hint: null,
     reference: null,
     location: "untrusted-root.badssl.com:443",
@@ -314,7 +314,7 @@ test("parses result file for untrusted-root.badssl.com correctly", async () => {
       port: 443,
     },
     hint: null,
-    osi_layer: "PRESENTATION",
+    communication_layer: "PRESENTATION",
     reference: null,
   });
 });
@@ -333,7 +333,7 @@ test("parses result file for self-signed.badssl.com correctly", async () => {
     category: "TLS Service Info",
     description: "",
     severity: "INFORMATIONAL",
-    osi_layer: "PRESENTATION",
+    communication_layer: "PRESENTATION",
     hint: null,
     reference: null,
     location: "self-signed.badssl.com:443",
@@ -383,7 +383,7 @@ test("parses result file for self-signed.badssl.com correctly", async () => {
       port: 443,
     },
     hint: null,
-    osi_layer: "PRESENTATION",
+    communication_layer: "PRESENTATION",
     reference: null,
   });
 });

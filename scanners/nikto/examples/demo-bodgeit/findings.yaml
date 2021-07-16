@@ -8,7 +8,7 @@
     "description": null,
     "category": "X-Frame-Options Header",
     "location": "http://bodgeit/",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "LOW",
     "attributes": {
       "ip_address": "10.105.36.237",
@@ -25,7 +25,7 @@
     "description": null,
     "category": "X-XSS-Protection",
     "location": "http://bodgeit/",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "LOW",
     "attributes": {
       "ip_address": "10.105.36.237",
@@ -42,7 +42,7 @@
     "description": null,
     "category": "X-Content-Type-Options Header",
     "location": "http://bodgeit/",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.105.36.237",
@@ -59,7 +59,7 @@
     "description": null,
     "category": "Identified Software",
     "location": "http://bodgeit/favicon.ico",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.105.36.237",
@@ -76,7 +76,7 @@
     "description": null,
     "category": "Nikto Finding",
     "location": "http://bodgeit/",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.105.36.237",
@@ -93,7 +93,7 @@
     "description": null,
     "category": "Nikto Finding",
     "location": "http://bodgeit/",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.105.36.237",
@@ -110,7 +110,7 @@
     "description": null,
     "category": "Nikto Finding",
     "location": "http://bodgeit/",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "ip_address": "10.105.36.237",

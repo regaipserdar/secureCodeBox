@@ -8,7 +8,7 @@
         "description": "The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.",
         "category": "X-Content-Type-Options Header Missing",
         "location": "http://swagger-petstore.demo-targets.svc",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "swagger-petstore.demo-targets.svc",
@@ -81,7 +81,7 @@
         "description": "Web browser data loading may be possible, due to a Cross Origin Resource Sharing (CORS) misconfiguration on the web server",
         "category": "Cross-Domain Misconfiguration",
         "location": "http://swagger-petstore.demo-targets.svc",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "MEDIUM",
         "attributes": {
             "host": "swagger-petstore.demo-targets.svc",
@@ -204,7 +204,7 @@
         "description": "A response code of 404 was returned by the server.This may indicate that the application is failing to handle unexpected input correctly.Raised by the 'Alert on HTTP Response Code Error' script",
         "category": "A Client Error response code was returned by the server",
         "location": "http://swagger-petstore.demo-targets.svc",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
         "attributes": {
             "host": "swagger-petstore.demo-targets.svc",
@@ -327,7 +327,7 @@
         "description": "The web/application server is leaking version information via the \"Server\" HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to.",
         "category": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
         "location": "http://swagger-petstore.demo-targets.svc",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "swagger-petstore.demo-targets.svc",
@@ -450,7 +450,7 @@
         "description": "A Content-Type of text/html was returned by the server.This is not one of the types expected to be returned by an API.Raised by the 'Alert on Unexpected Content Types' script",
         "category": "Unexpected Content-Type was returned",
         "location": "http://swagger-petstore.demo-targets.svc",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "swagger-petstore.demo-targets.svc",
@@ -508,7 +508,7 @@
         "description": "The request appeared to contain sensitive information leaked in the URL. This can violate PCI and most organizational compliance policies. You can configure the list of strings for this check to add or remove values specific to your environment.",
         "category": "Information Disclosure - Sensitive Information in URL",
         "location": "http://swagger-petstore.demo-targets.svc",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
         "attributes": {
             "host": "swagger-petstore.demo-targets.svc",
@@ -543,7 +543,7 @@
         "description": "A response code of 500 was returned by the server.This may indicate that the application is failing to handle unexpected input correctly.Raised by the 'Alert on HTTP Response Code Error' script",
         "category": "A Server Error response code was returned by the server",
         "location": "http://swagger-petstore.demo-targets.svc",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "swagger-petstore.demo-targets.svc",

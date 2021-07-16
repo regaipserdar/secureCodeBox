@@ -9,7 +9,7 @@
     "description": "Found a host",
     "location": "fritz.box",
     "severity": "INFORMATIONAL",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "attributes": {
       "ip_address": "192.168.178.1",
       "hostname": "fritz.box",
@@ -22,7 +22,7 @@
     "description": "Port 53 is open using tcp protocol.",
     "category": "Open Port",
     "location": "tcp://192.168.178.1:53",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "port": 53,
@@ -45,7 +45,7 @@
     "description": "Port 80 is open using tcp protocol.",
     "category": "Open Port",
     "location": "tcp://192.168.178.1:80",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "port": 80,
@@ -68,7 +68,7 @@
     "description": "Port 443 is open using tcp protocol.",
     "category": "Open Port",
     "location": "tcp://192.168.178.1:443",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "port": 443,
@@ -91,7 +91,7 @@
     "description": "Port 5060 is open using tcp protocol.",
     "category": "Open Port",
     "location": "tcp://192.168.178.1:5060",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "port": 5060,
@@ -114,7 +114,7 @@
     "description": "Port 8089 is open using tcp protocol.",
     "category": "Open Port",
     "location": "tcp://192.168.178.1:8089",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "port": 8089,
@@ -137,7 +137,7 @@
     "description": "Port 8181 is open using tcp protocol.",
     "category": "Open Port",
     "location": "tcp://192.168.178.1:8181",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "port": 8181,
@@ -161,7 +161,7 @@
     "description": "Found a host",
     "location": "foobars-iPhone.fritz.box",
     "severity": "INFORMATIONAL",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "attributes": {
       "ip_address": "192.168.178.21",
       "hostname": "foobars-iPhone.fritz.box",
@@ -174,7 +174,7 @@
     "description": "Port 62078 is open using tcp protocol.",
     "category": "Open Port",
     "location": "tcp://192.168.178.26:62078",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "port": 62078,

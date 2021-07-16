@@ -8,7 +8,7 @@
         "description": "Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.",
         "category": "Content Security Policy (CSP) Header Not Set",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -111,7 +111,7 @@
         "description": "X-Frame-Options header is not included in the HTTP response to protect against 'ClickJacking' attacks.",
         "category": "X-Frame-Options Header Not Set",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "MEDIUM",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -234,7 +234,7 @@
         "description": "The web/application server is leaking version information via the \"Server\" HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to.",
         "category": "Server Leaks Version Information via \"Server\" HTTP Response Header Field",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -357,7 +357,7 @@
         "description": "A timestamp was disclosed by the application/web server - Unix",
         "category": "Timestamp Disclosure - Unix",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -480,7 +480,7 @@
         "description": "At least one link on this page is vulnerable to Reverse tabnabbing as it uses a target attribute without using both of the \"noopener\" and \"noreferrer\" keywords in the \"rel\" attribute, which allows the target page to take control of this page.",
         "category": "Reverse Tabnabbing",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "MEDIUM",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -603,7 +603,7 @@
         "description": "The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.",
         "category": "X-Content-Type-Options Header Missing",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -726,7 +726,7 @@
         "description": "No Anti-CSRF tokens were found in a HTML submission form.A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.CSRF attacks are effective in a number of situations, including:    * The victim has an active session on the target site.    * The victim is authenticated via HTTP auth on the target site.    * The victim is on the same local network as the target site.CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.",
         "category": "Absence of Anti-CSRF Tokens",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -849,7 +849,7 @@
         "description": "This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.",
         "category": "User Controllable HTML Element Attribute (Potential XSS)",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -907,7 +907,7 @@
         "description": "A private IP (such as 10.x.x.x, 172.x.x.x, 192.168.x.x) or an Amazon EC2 private hostname (for example, ip-10-0-56-78) has been found in the HTTP response body. This information might be helpful for further attacks targeting internal systems.",
         "category": "Private IP Disclosure",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -950,7 +950,7 @@
         "description": "This page contains an error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception. This information can be used to launch further attacks against the web application. The alert could be a false positive if the error message is found inside a documentation page.",
         "category": "Application Error Disclosure",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "MEDIUM",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -998,7 +998,7 @@
         "description": "The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.",
         "category": "Modern Web Application",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -1041,7 +1041,7 @@
         "description": "HTTP basic or digest authentication has been used over an unsecured connection. The credentials can be read and then reused by someone with access to the network.",
         "category": "Weak Authentication Method",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "MEDIUM",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -1079,7 +1079,7 @@
         "description": "The Content-Type header was either missing or empty.",
         "category": "Content-Type Header Missing",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -1110,7 +1110,7 @@
         "description": "A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.",
         "category": "Cookie Without SameSite Attribute",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -1157,7 +1157,7 @@
         "description": "This check looks at user-supplied input in query string parameters and POST data to identify where cookie parameters might be controlled. This is called a cookie poisoning attack, and becomes exploitable when an attacker can manipulate the cookie in various ways. In some cases this will not be exploitable, however, allowing URL parameters to set cookie values is generally considered a bug.",
         "category": "Cookie Poisoning",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -1190,7 +1190,7 @@
         "description": "The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.",
         "category": "Information Disclosure - Suspicious Comments",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -1233,7 +1233,7 @@
         "description": "A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.",
         "category": "Cookie No HttpOnly Flag",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -1262,7 +1262,7 @@
         "description": "The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.",
         "category": "Information Disclosure - Suspicious Comments",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -1293,7 +1293,7 @@
         "description": "This page contains an error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception. This information can be used to launch further attacks against the web application. The alert could be a false positive if the error message is found inside a documentation page.",
         "category": "Application Error Disclosure",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",
@@ -1321,7 +1321,7 @@
         "description": "The response appeared to contain common error messages returned by platforms such as ASP.NET, and Web-servers such as IIS and Apache. You can configure the list of common debug messages.",
         "category": "Information Disclosure - Debug Error Messages",
         "location": "http://bodgeit.demo-targets.svc:8080",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "attributes": {
             "host": "bodgeit.demo-targets.svc",

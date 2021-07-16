@@ -40,7 +40,7 @@ test("should properly parse acstis finding log file", async () => {
         "category": "Template Injection",
         "description": "The given in this finding URL is vulnerable to AngularJS template injection which can lead to XSS",
         "name": "AngularJS template injection",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "HIGH",
       },
       Object {
@@ -53,7 +53,7 @@ test("should properly parse acstis finding log file", async () => {
         "category": "Template Injection",
         "description": "The given in this finding URL is vulnerable to AngularJS template injection which can lead to XSS",
         "name": "AngularJS template injection",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "HIGH",
       },
     ]

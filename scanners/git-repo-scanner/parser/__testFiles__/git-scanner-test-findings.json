@@ -3,7 +3,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 80711933,
@@ -21,7 +21,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 123422137,
@@ -39,7 +39,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 124402117,
@@ -57,7 +57,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 126042943,
@@ -75,7 +75,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 128396681,
@@ -93,7 +93,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 128920739,
@@ -111,7 +111,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 133507929,
@@ -129,7 +129,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 134673181,
@@ -147,7 +147,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 141462466,
@@ -165,7 +165,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 142870794,
@@ -183,7 +183,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 144957631,
@@ -201,7 +201,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 161506648,
@@ -219,7 +219,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 171298120,
@@ -237,7 +237,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 180543766,
@@ -255,7 +255,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 180568880,
@@ -273,7 +273,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 203588805,
@@ -291,7 +291,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 204489733,
@@ -309,7 +309,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 204701677,
@@ -327,7 +327,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 214418800,
@@ -345,7 +345,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 222679857,
@@ -363,7 +363,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 223956455,
@@ -381,7 +381,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 249731346,
@@ -399,7 +399,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 251007807,
@@ -417,7 +417,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 277835641,
@@ -435,7 +435,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 285890805,
@@ -453,7 +453,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 288212154,
@@ -471,7 +471,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 292293538,
@@ -489,7 +489,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 292573194,
@@ -507,7 +507,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 299249650,
@@ -525,7 +525,7 @@
     "name": "GitHub Repo",
     "description": "A GitHub repository",
     "category": "Git Repository",
-    "osi_layer": "APPLICATION",
+    "communication_layer": "APPLICATION",
     "severity": "INFORMATIONAL",
     "attributes": {
       "id": 303349727,

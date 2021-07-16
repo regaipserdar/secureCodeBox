@@ -34,7 +34,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -52,7 +52,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -70,7 +70,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -88,7 +88,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -106,7 +106,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -124,7 +124,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -142,7 +142,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -160,7 +160,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -178,7 +178,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -196,7 +196,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -214,7 +214,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -232,7 +232,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -250,7 +250,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -268,7 +268,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -286,7 +286,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -304,7 +304,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -322,7 +322,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -340,7 +340,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -358,7 +358,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -376,7 +376,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -394,7 +394,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -412,7 +412,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -430,7 +430,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -448,7 +448,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -466,7 +466,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -484,7 +484,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -502,7 +502,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -520,7 +520,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -538,7 +538,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
       Object {
@@ -556,7 +556,7 @@ test("should properly parse git-scanner json file", async () => {
         "category": "Git Repository",
         "description": "A GitHub repository",
         "name": "GitHub Repo",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
     ]

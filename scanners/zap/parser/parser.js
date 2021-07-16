@@ -60,7 +60,7 @@ function createFindingFromAlert(alert, { location, host, port }) {
     hint: alert.hint,
     category: alert.alert || stripHtmlTags(alert.name),
     location,
-    osi_layer: "APPLICATION",
+    communication_layer: "APPLICATION",
     severity: riskToSeverity(alert.riskcode),
     attributes: {
       host,

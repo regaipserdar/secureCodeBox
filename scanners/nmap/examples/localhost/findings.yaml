@@ -9,7 +9,7 @@
     "description": "Found a host",
     "location": "localhost",
     "severity": "INFORMATIONAL",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "attributes": {
       "ip_address": "127.0.0.1",
       "hostname": "localhost",

@@ -58,7 +58,7 @@ test("should properly parse gitleaks json file", async () => {
         "category": "Potential Secret",
         "description": "The name of the rule which triggered the finding: AWS Manager ID",
         "name": "AWS Manager ID",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "HIGH",
       },
       Object {
@@ -80,7 +80,7 @@ test("should properly parse gitleaks json file", async () => {
         "category": "Potential Secret",
         "description": "The name of the rule which triggered the finding: AWS Secret Key",
         "name": "AWS Secret Key",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "HIGH",
       },
       Object {
@@ -102,7 +102,7 @@ test("should properly parse gitleaks json file", async () => {
         "category": "Potential Secret",
         "description": "The name of the rule which triggered the finding: Generic credentials",
         "name": "Generic credentials",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
       },
       Object {
@@ -124,7 +124,7 @@ test("should properly parse gitleaks json file", async () => {
         "category": "Potential Secret",
         "description": "The name of the rule which triggered the finding: Generic credentials",
         "name": "Generic credentials",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
       },
       Object {
@@ -146,7 +146,7 @@ test("should properly parse gitleaks json file", async () => {
         "category": "Potential Secret",
         "description": "The name of the rule which triggered the finding: File names with potential keys and credentials",
         "name": "File names with potential keys and credentials",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
       },
       Object {
@@ -168,7 +168,7 @@ test("should properly parse gitleaks json file", async () => {
         "category": "Potential Secret",
         "description": "The name of the rule which triggered the finding: Facebook Secret Key",
         "name": "Facebook Secret Key",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "MEDIUM",
       },
       Object {
@@ -190,7 +190,7 @@ test("should properly parse gitleaks json file", async () => {
         "category": "Potential Secret",
         "description": "The name of the rule which triggered the finding: Asymmetric Private Key",
         "name": "Asymmetric Private Key",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "HIGH",
       },
     ]
@@ -232,7 +232,7 @@ test("should properly construct commit URL if present with -r option", async () 
         "category": "Potential Secret",
         "description": "The name of the rule which triggered the finding: AWS Manager ID",
         "name": "AWS Manager ID",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "HIGH",
       },
     ]
@@ -274,7 +274,7 @@ test("should properly construct commit URL if present with --repo option", async
         "category": "Potential Secret",
         "description": "The name of the rule which triggered the finding: AWS Manager ID",
         "name": "AWS Manager ID",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "HIGH",
       },
     ]

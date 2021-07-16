@@ -8,7 +8,7 @@
     "description": "Port 22 is open using tcp protocol.",
     "category": "Open Port",
     "location": "tcp://45.33.32.156:22",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "port": 22,
@@ -31,7 +31,7 @@
     "description": "Port 80 is open using tcp protocol.",
     "category": "Open Port",
     "location": "tcp://45.33.32.156:80",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "port": 80,
@@ -54,7 +54,7 @@
     "description": "Port 135 is filtered using tcp protocol.",
     "category": "Open Port",
     "location": "tcp://45.33.32.156:135",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "port": 135,
@@ -77,7 +77,7 @@
     "description": "Port 139 is filtered using tcp protocol.",
     "category": "Open Port",
     "location": "tcp://45.33.32.156:139",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "port": 139,
@@ -100,7 +100,7 @@
     "description": "Port 445 is filtered using tcp protocol.",
     "category": "Open Port",
     "location": "tcp://45.33.32.156:445",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "port": 445,
@@ -123,7 +123,7 @@
     "description": "Port 9929 is open using tcp protocol.",
     "category": "Open Port",
     "location": "tcp://45.33.32.156:9929",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "port": 9929,
@@ -146,7 +146,7 @@
     "description": "Port 31337 is open using tcp protocol.",
     "category": "Open Port",
     "location": "tcp://45.33.32.156:31337",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "severity": "INFORMATIONAL",
     "attributes": {
       "port": 31337,
@@ -170,7 +170,7 @@
     "description": "Found a host",
     "location": "scanme.nmap.org",
     "severity": "INFORMATIONAL",
-    "osi_layer": "NETWORK",
+    "communication_layer": "NETWORK",
     "attributes": {
       "ip_address": "45.33.32.156",
       "hostname": "scanme.nmap.org",

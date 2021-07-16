@@ -13,7 +13,7 @@ spec:
   matches:
     anyOf:
       - category: "Subdomain"
-        osi_layer: "NETWORK"
+        communication_layer: "NETWORK"
   scanSpec:
     scanType: "nmap"
     parameters:

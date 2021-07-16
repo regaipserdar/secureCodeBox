@@ -33,7 +33,7 @@ test("should create finding correctly", async () => {
         "description": "Took a Screenshot for website: 'https://www.iteratec.de'",
         "location": "https://www.iteratec.de",
         "name": "Screenshot for https://www.iteratec.de",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "INFORMATIONAL",
       },
     ]

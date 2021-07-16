@@ -2,7 +2,7 @@
     {
         "name": "Generic credentials",
         "description": "The name of the rule which triggered the finding: Generic credentials",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "category": "Potential Secret",
         "attributes": {
@@ -25,7 +25,7 @@
     {
         "name": "Generic credentials",
         "description": "The name of the rule which triggered the finding: Generic credentials",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "category": "Potential Secret",
         "attributes": {
@@ -48,7 +48,7 @@
     {
         "name": "Generic credentials",
         "description": "The name of the rule which triggered the finding: Generic credentials",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "category": "Potential Secret",
         "attributes": {
@@ -71,7 +71,7 @@
     {
         "name": "Generic credentials",
         "description": "The name of the rule which triggered the finding: Generic credentials",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "category": "Potential Secret",
         "attributes": {
@@ -94,7 +94,7 @@
     {
         "name": "Generic credentials",
         "description": "The name of the rule which triggered the finding: Generic credentials",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "category": "Potential Secret",
         "attributes": {
@@ -117,7 +117,7 @@
     {
         "name": "Generic credentials",
         "description": "The name of the rule which triggered the finding: Generic credentials",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "category": "Potential Secret",
         "attributes": {
@@ -140,7 +140,7 @@
     {
         "name": "Generic credentials",
         "description": "The name of the rule which triggered the finding: Generic credentials",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "category": "Potential Secret",
         "attributes": {
@@ -163,7 +163,7 @@
     {
         "name": "Generic credentials",
         "description": "The name of the rule which triggered the finding: Generic credentials",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "category": "Potential Secret",
         "attributes": {
@@ -186,7 +186,7 @@
     {
         "name": "Generic credentials",
         "description": "The name of the rule which triggered the finding: Generic credentials",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "category": "Potential Secret",
         "attributes": {
@@ -209,7 +209,7 @@
     {
         "name": "Generic credentials",
         "description": "The name of the rule which triggered the finding: Generic credentials",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "category": "Potential Secret",
         "attributes": {
@@ -232,7 +232,7 @@
     {
         "name": "Generic credentials",
         "description": "The name of the rule which triggered the finding: Generic credentials",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "category": "Potential Secret",
         "attributes": {
@@ -255,7 +255,7 @@
     {
         "name": "Generic credentials",
         "description": "The name of the rule which triggered the finding: Generic credentials",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "category": "Potential Secret",
         "attributes": {
@@ -278,7 +278,7 @@
     {
         "name": "Generic credentials",
         "description": "The name of the rule which triggered the finding: Generic credentials",
-        "osi_layer": "APPLICATION",
+        "communication_layer": "APPLICATION",
         "severity": "LOW",
         "category": "Potential Secret",
         "attributes": {
@@ -299,4 +299,3 @@
         "id": "0a48dd0c-d860-4d5d-b946-5e32f4a14f7f"
     }
 ]
-

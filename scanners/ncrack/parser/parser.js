@@ -42,7 +42,7 @@ function transformToFindings (ncrackrun, publicKey) {
         description: '',
         category: 'Discovered Credentials',
         location: `${portName}://${ipAddress}:${portid}`,
-        osi_layer: 'APPLICATION',
+        communication_layer: 'APPLICATION',
         severity: 'HIGH',
         attributes: {
           port: portid,

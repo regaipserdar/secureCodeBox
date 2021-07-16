@@ -25,7 +25,7 @@ async function parse(fileContent) {
     return {
       name: 'AngularJS template injection',
       description: 'The given in this finding URL is vulnerable to AngularJS template injection which can lead to XSS',
-      osi_layer: 'APPLICATION',
+      communication_layer: 'APPLICATION',
       severity: 'HIGH',
       category: 'Template Injection',
       attributes: {
