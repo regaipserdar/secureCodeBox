@@ -32,7 +32,7 @@ public class SecureCodeBoxFinding {
   String description;
   @JsonProperty
   String category;
-  @JsonProperty("osi_layer")
+  @JsonProperty("communication_layer")
   String osiLayer;
   @JsonProperty
   Severities severity;
