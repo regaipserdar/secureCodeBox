@@ -19,7 +19,7 @@ spec:
     scanType: "gitleaks"
     parameters:
       - "-r"
-      - "{{{attributes.web_url}}}"
+      - "{{{location}}}"
       #Provide an access token
       - "--access-token"
       - "$(GITHUB_TOKEN)"

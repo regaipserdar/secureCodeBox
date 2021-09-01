@@ -28,9 +28,9 @@ class AbstractScanner(abc.ABC):
             'category': 'Git Repository',
             'osi_layer': 'APPLICATION',
             'severity': 'INFORMATIONAL',
+            'location':web_url,
             'attributes': {
                 'id': repo_id,
-                'web_url': web_url,
                 'full_name': full_name,
                 'owner_type': owner_type,
                 'owner_id': owner_id,
