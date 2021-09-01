@@ -40,7 +40,8 @@ async function parse (fileContent, scan) {
           line_number: finding.lineNumber,
           tags: finding.tags.split(',').map(tag => tag.trim()),
           line: finding.line
-        }
+        },
+        location:commitUrl,
       }
     });
   }
