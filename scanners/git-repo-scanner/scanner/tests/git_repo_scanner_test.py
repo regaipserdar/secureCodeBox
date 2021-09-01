@@ -32,9 +32,9 @@ class GitRepoScannerTests(unittest.TestCase):
         # then
         self.assertEqual(3, len(findings), msg='There should be exactly 3 findings')
         self.assertEqual(findings[0]['name'], 'GitLab Repo', msg=self.wrong_output_msg)
-        self.assertEqual(findings[0]['attributes']['web_url'], 'url1', msg=self.wrong_output_msg)
-        self.assertEqual(findings[1]['attributes']['web_url'], 'url2', msg=self.wrong_output_msg)
-        self.assertEqual(findings[2]['attributes']['web_url'], 'url3', msg=self.wrong_output_msg)
+        self.assertEqual(findings[0]['location'], 'url1', msg=self.wrong_output_msg)
+        self.assertEqual(findings[1]['location'], 'url2', msg=self.wrong_output_msg)
+        self.assertEqual(findings[2]['location'], 'url3', msg=self.wrong_output_msg)
 
     def test_process_gitlab_projects_with_ignore_group(self):
         # given
@@ -44,8 +44,8 @@ class GitRepoScannerTests(unittest.TestCase):
         findings = scanner._process_projects(projects)
         # then
         self.assertEqual(2, len(findings), msg='There should be exactly 2 findings')
-        self.assertEqual(findings[0]['attributes']['web_url'], 'url1', msg=self.wrong_output_msg)
-        self.assertEqual(findings[1]['attributes']['web_url'], 'url2', msg=self.wrong_output_msg)
+        self.assertEqual(findings[0]['location'], 'url1', msg=self.wrong_output_msg)
+        self.assertEqual(findings[1]['location'], 'url2', msg=self.wrong_output_msg)
 
     def test_process_gitlab_projects_with_ignore_project(self):
         # given
@@ -55,8 +55,8 @@ class GitRepoScannerTests(unittest.TestCase):
         findings = scanner._process_projects(projects)
         # then
         self.assertEqual(2, len(findings), msg='There should be exactly 2 findings')
-        self.assertEqual(findings[0]['attributes']['web_url'], 'url2', msg=self.wrong_output_msg)
-        self.assertEqual(findings[1]['attributes']['web_url'], 'url3', msg=self.wrong_output_msg)
+        self.assertEqual(findings[0]['location'], 'url2', msg=self.wrong_output_msg)
+        self.assertEqual(findings[1]['location'], 'url3', msg=self.wrong_output_msg)
 
     @patch('github.Github')
     @patch('github.Organization')
