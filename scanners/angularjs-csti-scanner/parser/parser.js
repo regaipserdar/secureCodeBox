@@ -29,11 +29,11 @@ async function parse(fileContent) {
       severity: 'HIGH',
       category: 'Template Injection',
       attributes: {
-        url: url,
         method: method,
         parameter: parameter,
         injectedTemplate: injectedTemplate,
-      }
+      },
+      location:url
     }
   })
 }
